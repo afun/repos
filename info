@@ -1,0 +1,18 @@
+REPOS [GIT] commit 481d5485: Initial commit.
+
+
+Path  : git
+Date  : 2011-12-26 01:13:13 +0800
+Author: Afun Nahn
+Commit: 481d5485380f4f6621d6dad3946e37a5853a423f
+
+    Initial commit.
+
+
+
+ PROJECTS          |  173 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ git/repos_init.sh |    5 ++
+ 2 files changed, 178 insertions(+), 0 deletions(-)
+
+================================================================================
+
