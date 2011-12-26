@@ -1,19 +1,19 @@
-REPOS [GIT] commit 89ea55d6: Fix git/update_modified.pl.
+REPOS [GIT] commit a6a8883d: Fix git/update_modified.pl AGAIN.
 
 
 Path  : git
-Date  : 2011-12-26 22:11:31 +0800
+Date  : 2011-12-26 22:13:59 +0800
 Author: Afun Nahn
-Commit: 89ea55d65ff231238701dd2aef6833638272943a
+Commit: a6a8883d3165710db291793b4ea5f20594f343ce
 
-    Fix git/update_modified.pl.
+    Fix git/update_modified.pl AGAIN.
 
 
 
- git/.is-modified                |    6 +++---
+ git/.is-modified                |   12 ++++++------
  git/repos/git/refs/heads/master |    2 +-
  git/update_modified.pl          |    2 +-
- 3 files changed, 5 insertions(+), 5 deletions(-)
+ 3 files changed, 8 insertions(+), 8 deletions(-)
 
 ================================================================================
 
