@@ -1,24 +1,20 @@
-REPOS [GIT] commit d49c75f2: Update scripts.
+REPOS [GIT] commit f6b219b8: Update git/update_modified.pl
 
 
 Path  : git
-Date  : 2011-12-26 21:57:33 +0800
+Date  : 2011-12-26 22:06:35 +0800
 Author: Afun Nahn
-Commit: d49c75f23025eb8a0b833e1b23d5402dc8a98bef
+Commit: f6b219b8c11e7c90947946e79da1a874f09337f0
 
-    Update scripts.
+    Update git/update_modified.pl
 
 
 
- git/.is-modified                |   25 ----------
+ git/.is-modified                |   25 +++++++++
  git/repos/git/refs/heads/master |    2 +-
- git/scripts/commit.sh           |   59 -----------------------
- git/scripts/commit_subrepo.sh   |   59 +++++++++++++++++++++++
- git/scripts/update_modified.pl  |  100 +++++++++++++++++++++++++++++++--------
- git/sync-repos.log              |   53 +++-----------------
- git/sync-repos.sh               |   26 +++++++---
- git/update_modified.pl          |   57 ----------------------
- 8 files changed, 167 insertions(+), 214 deletions(-)
+ git/scripts/update_modified.pl  |  105 ------------------------------------
+ git/update_modified.pl          |  112 +++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 138 insertions(+), 106 deletions(-)
 
 ================================================================================
 
