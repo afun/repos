@@ -1,20 +1,19 @@
-REPOS [GIT] commit f6b219b8: Update git/update_modified.pl
+REPOS [GIT] commit d2f38e22: Update git/update_modified.pl AGAIN.
 
 
 Path  : git
-Date  : 2011-12-26 22:06:35 +0800
+Date  : 2011-12-26 22:09:49 +0800
 Author: Afun Nahn
-Commit: f6b219b8c11e7c90947946e79da1a874f09337f0
+Commit: d2f38e2244f33ff4167534f35022a2e9dd0309d0
 
-    Update git/update_modified.pl
+    Update git/update_modified.pl AGAIN.
 
 
 
- git/.is-modified                |   25 +++++++++
+ git/.is-modified                |    6 +++---
  git/repos/git/refs/heads/master |    2 +-
- git/scripts/update_modified.pl  |  105 ------------------------------------
- git/update_modified.pl          |  112 +++++++++++++++++++++++++++++++++++++++
- 4 files changed, 138 insertions(+), 106 deletions(-)
+ git/update_modified.pl          |    3 ++-
+ 3 files changed, 6 insertions(+), 5 deletions(-)
 
 ================================================================================
 
