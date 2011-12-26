@@ -1,18 +1,39 @@
-REPOS [GIT] commit 1e43636f: Fix git/update_modified.pl AGAIN AGAIN AGAIN.
+REPOS [GIT] commit 77175279: Remove scripts, link instead.
 
 
 Path  : git
-Date  : 2011-12-26 22:22:56 +0800
+Date  : 2011-12-27 00:38:25 +0800
 Author: Afun Nahn
-Commit: 1e43636f2141d839fcb087f49887efc9b34ff24d
+Commit: 77175279482936d6963a7aedbcfb077c322d8676
 
-    Fix git/update_modified.pl AGAIN AGAIN AGAIN.
+    Remove scripts, link instead.
 
 
 
+ git-repos.log                   |   18 ++++---
+ git-repos.log.diff              |   30 ----------
+ git-repos.log.old               |   33 +++++++++++-
+ git/.is-modified                |   12 ++--
+ git/commit-repos.pl             |    6 --
+ git/commit.pl                   |    1 +
+ git/generate-log.pl             |   92 -------------------------------
  git/repos/git/refs/heads/master |    2 +-
- git/update_modified.pl          |    1 +
- 2 files changed, 2 insertions(+), 1 deletions(-)
+ git/repos_init.sh               |    5 --
+ git/s_commit.sh                 |    1 +
+ git/s_generate_log.pl           |    1 +
+ git/scripts/backup.sh           |   18 ------
+ git/scripts/commit_subrepo.sh   |   59 --------------------
+ git/scripts/config.sh           |   16 ------
+ git/scripts/genlog.pl           |   89 ------------------------------
+ git/sync-repos.sh               |   26 ---------
+ git/update_modified.pl          |  114 +--------------------------------------
+ scripts                         |    1 +
+ scripts/auto_commit.pl          |   42 --------------
+ scripts/commit.pl               |   28 ----------
+ scripts/generate_log.pl         |   51 -----------------
+ scripts/repos_add_refs.sh       |    2 -
+ scripts/repos_config.sh         |   16 ------
+ 23 files changed, 54 insertions(+), 609 deletions(-)
 
 ================================================================================
 
