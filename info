@@ -1,17 +1,17 @@
-REPOS [GIT] commit 53d6fbf5: Add private mirror sf-afun.git.
+REPOS [GIT] commit f56d12bb: Add autocommit.
 
 
 Path  : git
-Date  : 2012-05-08 00:21:13 +0800
+Date  : 2012-05-08 00:44:50 +0800
 Author: Afun Nahn
-Commit: 53d6fbf582f8ea088bff1f1d324bc207c4e80d00
+Commit: f56d12bba96aaee2a4a3ba4a000ff1ca6f9bc4a6
 
-    Add private mirror sf-afun.git.
+    Add autocommit.
 
 
 
- PROJECTS |    6 +++++-
- 1 file changed, 5 insertions(+), 1 deletion(-)
+ autocommit |    2 ++
+ 1 file changed, 2 insertions(+)
 
 ================================================================================
 
