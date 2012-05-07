@@ -1,39 +1,17 @@
-REPOS [GIT] commit 77175279: Remove scripts, link instead.
+REPOS [GIT] commit 53d6fbf5: Add private mirror sf-afun.git.
 
 
 Path  : git
-Date  : 2011-12-27 00:38:25 +0800
+Date  : 2012-05-08 00:21:13 +0800
 Author: Afun Nahn
-Commit: 77175279482936d6963a7aedbcfb077c322d8676
+Commit: 53d6fbf582f8ea088bff1f1d324bc207c4e80d00
 
-    Remove scripts, link instead.
+    Add private mirror sf-afun.git.
 
 
 
- git-repos.log                   |   18 ++++---
- git-repos.log.diff              |   30 ----------
- git-repos.log.old               |   33 +++++++++++-
- git/.is-modified                |   12 ++--
- git/commit-repos.pl             |    6 --
- git/commit.pl                   |    1 +
- git/generate-log.pl             |   92 -------------------------------
- git/repos/git/refs/heads/master |    2 +-
- git/repos_init.sh               |    5 --
- git/s_commit.sh                 |    1 +
- git/s_generate_log.pl           |    1 +
- git/scripts/backup.sh           |   18 ------
- git/scripts/commit_subrepo.sh   |   59 --------------------
- git/scripts/config.sh           |   16 ------
- git/scripts/genlog.pl           |   89 ------------------------------
- git/sync-repos.sh               |   26 ---------
- git/update_modified.pl          |  114 +--------------------------------------
- scripts                         |    1 +
- scripts/auto_commit.pl          |   42 --------------
- scripts/commit.pl               |   28 ----------
- scripts/generate_log.pl         |   51 -----------------
- scripts/repos_add_refs.sh       |    2 -
- scripts/repos_config.sh         |   16 ------
- 23 files changed, 54 insertions(+), 609 deletions(-)
+ PROJECTS |    6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
 
 ================================================================================
 
